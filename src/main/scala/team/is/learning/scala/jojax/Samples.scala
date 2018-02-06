@@ -17,12 +17,25 @@ object Samples {
   }
 
 
-  def loop(n: Int) : Unit = {
-     println("coucou")
-     if(n == 2) () else loop(n + 1)
-  }
 
-  def inifinite3() : Unit = loop(0)
+
+  def inifinite3() : Unit = {
+
+    def loop(n: Int) : Unit = {
+      println("coucou")
+      if(n == 2) {
+
+        ()
+
+      } else {
+
+        loop(n + 1)
+
+      }
+    }
+
+    loop(0)
+  }
 
 
 
