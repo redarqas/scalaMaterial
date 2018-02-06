@@ -1,3 +1,5 @@
 /bin
 /project/target
 /target
+/.idea/modules/learn_scala-build.iml
+/.idea/modules/learn_scala.iml
