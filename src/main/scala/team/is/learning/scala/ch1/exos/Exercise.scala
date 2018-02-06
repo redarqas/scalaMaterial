@@ -25,7 +25,7 @@ object Exercise {
 
   def maximum(xs: List[Int]) : Int = ???
 
-
+  //a deviner
   def maximum0(xs: List[Int]): Int = ???
 
   def reverse(xs: List[String]) : List[String] = ???
@@ -34,7 +34,6 @@ object Exercise {
 
   //take n first elems from xs
   def take(n: Int, xs: List[String]) : List[String] = ???
-
 
 
 
