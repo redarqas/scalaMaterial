@@ -56,7 +56,7 @@ object Foldable extends App {
 
 
 
-  val numbers =  1 to 4 toList
+  val numbers =  1.to(4).toList
 
   println(sum(numbers))
   println(product(numbers))

@@ -2,7 +2,7 @@ package team.is.learning.scala.ch1
 
 object Recursion {
 
-  def main(args: Array[String]) {
+  def main(args: Array[String]): Unit =  {
     infinite()
 
   }
